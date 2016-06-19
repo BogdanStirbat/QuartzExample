@@ -1,11 +1,20 @@
-Quartz Example
+## Quartz Example   
+   
+This is a simple project, indented for experimenting with Quartz API. The project's purpose is to explore Quartz API, it's configuration, with or without Spring. This is why there are two examples, one of them uses Spring and the other not.       
 
+###### For compiling and running the project, execute following steps.
 
-Compile the project: 
- mvn clean install
+1. Compile the project.
+    ```shell
+    mvn clean install
+    ```
 
-
-Run project
- java -cp target/quartzexample-1.0-SNAPSHOT.jar com.bstirbat.quartzexample.SimpleSchedulerExample     # for running SimpleSchedulerExample
-
- java -cp target/quartzexample-1.0-SNAPSHOT.jar com.bstirbat.quartzexample.SchedulerWithSpringExample # for running SchedulerWithSpringExample    
+2. Run project
+ * Running SimpleSchedulerExample: 
+  ```shell
+     java -cp target/quartzexample-1.0-SNAPSHOT.jar com.bstirbat.quartzexample.SimpleSchedulerExample
+ ```     
+ * Running SchedulerWithSpringExample 
+  ```shell
+     java -cp target/quartzexample-1.0-SNAPSHOT.jar com.bstirbat.quartzexample.SchedulerWithSpringExample
+  ```
